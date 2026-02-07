@@ -19,25 +19,37 @@
 
 ## 🛠 Developer Guide
 
-### 1. Requirements
-You must have Python installed. The app relies on the `pypdf` library for high-speed PDF manipulation.
+To run this project locally or modify the source code, follow these steps:
 
-**Install libraries:**
+### 1. Download the Project
+First, clone this repository to your local machine:
 ```bash
+git clone [https://github.com/AM2201NE/Columnify.git](https://github.com/AM2201NE/Columnify.git)
+
+```
+
+*Alternatively, click the green **"Code"** button at the top of this page and select **"Download ZIP"**, then extract the files.*
+
+### 2. Requirements
+
+Navigate to the project folder and install the necessary libraries. You must have Python installed.
+
+```bash
+cd Columnify
 pip install pypdf pyinstaller
 
 ```
 
-### 2. Run the Script
+### 3. Run the Script
 
-To run the app directly from the source code:
+To launch the app directly from the source code:
 
 ```bash
 python Columnify.py
 
 ```
 
-### 3. Build Standalone EXE (Packaging)
+### 4. Build Standalone EXE (Packaging)
 
 To create a single `.exe` file that you can share with others (works without Python installed and without Admin rights):
 
